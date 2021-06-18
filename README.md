@@ -12,3 +12,6 @@ Danish, Dutch, English, French, German, Italian, Portuguese and Spanish
 **_Encrypt -_** Put the text to be encrypted in a '.txt' file called "decrypted.txt" in the root folder. The key(s) to be used can be assigned to the 'key' array on line 55. The length can be changed. Then run "VigenereCipher.java". Encrypted text will be placed in a file called "encrypted.txt".
 
 **_Decrypt -_** Put the text to be decrypted in a '.txt' file called "decrypted.txt" in the root folder. Then run "VigenereBreaker.java". It will detect the language and place the decrypted text in a file called "decrypted.txt".
+
+## Additional Info
+Trying to decrypt a small text which was encrypted using a long key can yield wrong results. Use long keys only when the sample text is a few paragraphs long.
